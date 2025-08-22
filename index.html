@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Review and redo Lorem Ipsum project</h1>
+        </nav>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="paragraph">
+                <label for="">Paragraph:</label>
+                <input type="range" min="1" value="1" max="50" id="paragraphs">
+                <span class="paragraphValue">1</span>
+            </div>
+            <div class="wordsCount">
+                <label for="">Words Per Paragraph: </label>
+                <input type="range" min="1" value="1" max="100" id="words">
+                <span class="wordValue">1</span>
+            </div>
+            <div class="tags">
+                <label for="tags">Tags:</label>
+                <select id="tags"></select>
+            </div>
+
+            <div class="includeHtml">
+                <label for="">Include HTML</label>
+                <select  id="include">
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+
+            <button class="generator">Generate Lorem Ipsum</button>
+            <div class="output">
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: orange;
+    padding: 12px;
+}
+
+header h1{
+    text-align: center;
+    color: #fff;
+}
+
+.container{
+    max-width: 800px;
+    margin: 40px auto;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 40px;
+}
+
+
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.paragraph label{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.paragraph input{
+    margin-bottom: 5px;
+}
+
+.wordsCount{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.wordsCount input{
+    margin-bottom: 5px;
+    border-radius: 12px;
+}
+
+.tags{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.tags select{
+    height: 30px;
+}
+
+.includeHtml{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.includeHtml select{
+    height: 30px;
+}
+
+.generator{
+    width: 100%;
+    padding: 6px;
+    color: orange;
+    background-color: #14213d;
+    font-size: 22px;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.output{
+    width: 100%;
+    border: 2px solid #14213d;
+    border-radius: 5px;
+    min-height: 200px;
+}
